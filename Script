@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+# MySQL Workbench Python script
+# <description>
+# Written in MySQL Workbench 8.0.15
+
+import grt
+#import mforms
+CREATE SCHEMA `newdb` ;
+CREATE TABLE `newdb`.`file_info` (
+  `file_id` INT NOT NULL AUTO_INCREMENT,
+  `file_name` VARCHAR(45) NOT NULL,
+  `file_date` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`file_id`));

@@ -4,7 +4,7 @@ public class FileTest {
     public static void main(String[] args) {
 
         MyFile myFile = new MyFile();
-        List<String> data = myFile.read("D:\\JPROJECT\\Jproject\\src\\main\\java\\parameters");
+        List<String> data = myFile.read(args[0]);
 
         MyConfig myConfig = new MyConfig();
         myConfig.setParametres(data);
